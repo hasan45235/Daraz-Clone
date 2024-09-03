@@ -1,0 +1,437 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  background-color: #f5f5f5;
+}
+.navbar {
+  background-color: #ff5005;
+  padding-bottom: 40px;
+  position: sticky;
+  top: 0px;
+}
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.navbar .links a:hover {
+  color: rgb(245, 238, 229);
+}
+.links {
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  padding: 5px 20px 15px 5px;
+}
+.navbar img {
+  width: 120px;
+  height: auto;
+}
+.search {
+  height: 20px;
+}
+#search {
+  padding: 15px;
+  border: none;
+}
+#search:focus {
+  outline: none;
+  border: none;
+}
+form {
+  border: 1px solid white;
+  margin: auto;
+}
+.fa-magnifying-glass {
+  color: #ff5005;
+  height: auto;
+
+  background-color: #f4e4dd;
+  padding: 13px 12px 16px 12px;
+}
+.shopping {
+  margin: auto 1px;
+}
+
+.line2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 50px;
+}
+.box-heading {
+  font-size: 25px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  color: #ff5005;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px 20px;
+}
+.flex a {
+  text-decoration: none;
+  color: #ff5005;
+  border: 1px solid #ff5005;
+  padding: 10px;
+}
+.body {
+  display: block;
+  max-width: 1210px;
+  margin: 0px auto;
+}
+.cards {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 188px;
+  height: auto;
+  padding: 10px 0px;
+  background-color: white;
+}
+.card img{
+  width: 188px;
+  height: 188px;
+}
+.card-text{
+  font-size: 12px;
+  line-height: 20px;
+  
+  margin: 0px 8px 2px 8px;
+  color: black;
+  
+}
+.price{
+  color: #ff5005;
+  margin: 0px 8px;
+}
+.card p del{
+  font-size: x-small;
+  color: grey;
+}
+.card p span{
+  font-size:small ;
+  color: black;
+}
+.discount{
+  margin: 3px 8px;
+}
+a{
+  text-decoration: none;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box{
+  width: 139px ;
+  height: 150px;
+  padding: 10px 5px;
+  border: 1px solid #f5f5f5;
+  border-collapse: collapse;
+  background-color: white;
+}
+.box img{
+  width: 50%;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0px auto;
+  
+  /* margin:1px auto; */
+  
+}
+.box a{
+  text-align: center;
+  
+}
+
+.boxes{
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+.box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scale: 1.00001;
+  transition: 0.2s;
+}
+.cards2 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+.centered-button{
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+.centered-button a{
+  color: rgb(22, 160, 160 );
+  border: 1px solid rgb(22, 160, 160);
+  display: block;
+  padding: 10px 10px;
+  width: 40%;
+  margin: 0px auto;
+}
+.bottom-links{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-links a{
+  color: rgb(5, 5, 86);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: lighter;
+}
+.bottom-links span{
+  color: rgb(5, 5, 86);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: lighter;
+}
+
+.bottom-links a:hover{
+  text-decoration: underline;
+  
+}
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding:0px 0px 50px 0px;
+}
+.button-links{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  
+} 
+.button-link{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  height: max-content;
+  
+} 
+.button-links a{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px 2px 12px;
+}
+.button-link a{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 4px 12px 2px 12px;
+  
+}
+.button-links p{
+  margin: 0px;
+  font-size: 10px;
+}
+.button-links i{
+  font-size: 30px;
+}
+.button-links span{
+  font-size: 18px;
+}
+.button-link p{
+  margin: 0px;
+  font-size: 10px;
+}
+.button-link i{
+  font-size: 30px;
+}
+.button-link span{
+  font-size: 18px;
+}
+.flex-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-daraz{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: max-content;
+  margin: 30px 0px;
+  
+}
+.about-daraz img{
+  width: 40px;
+  height: 40px;
+}
+.about-daraz-flex{
+  display: flex;
+  margin:  0px;
+  gap: 10px;
+}
+.about-daraz-flex p{
+  margin: 0px;
+}
+.payment{
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  gap: 60px;
+  
+}
+.payment div img{
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+}
+.payment .verified img{
+  width: 70px;
+  height:45px;
+}
+.footer .flags img{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  
+}
+.footer-flex{
+  display: flex;
+  gap: 40px;
+
+}
+.footer-flex i{
+  font-size: 30px;
+  padding: 0px 10px;
+}
+.flags a{
+  padding: 0px 10px;
+  color: grey;
+}
+.flags a:hover{
+  text-decoration: underline;
+}
+.copyright{
+  font-size: 12px;
+  color: grey;
+}
+.footer{
+  display: flex;
+  gap: 200px;
+  background-color: white;
+  padding: 20px 0px;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+@media screen and (max-width:1050px){
+  .navbar .links{
+    /* visibility: hidden; */
+    display: none;
+  }
+  .navbar .line2 .search {
+    display: none;
+  }
+  .navbar .line2 .shopping{
+    display: none;
+  }
+  .navbar{
+    padding: 20px 10px;
+  }
+}
